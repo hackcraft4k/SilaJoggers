@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Collection-Sila Joggers</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="container flex">
+        <a href="index.html" class="site-brand"> Sila<span>Joggers</span> </a>
+
+        <button type="button" id="navbar-show-btn" class="flex">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div id="navbar-collapse">
+          <button type="button" id="navbar-close-btn" class="flex">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="collections.html" class="nav-link">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex header-sm">
+      <div class="container">
+        <div class="header-title">
+          <h1>Browse Through The Collection</h1>
+          <p>
+            Discover our full range of authentic Sila Joggers. Find your perfect
+            fit, color, and style for ultimate comfort and everday wear.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- gallery section -->
+    <div id="gallery" class="py-4">
+      <div class="container">
+        <div class="gallery-row">
+          <div class="gallery-item shadow">
+            <img src="images/jogger 9.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 10.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 11.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 12.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 13.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 14.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 15.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 16.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+          <div class="gallery-item shadow">
+            <img src="images/jogger 17.png" alt="gallery img" />
+            <span class="zoom-icon">
+              <i class="fas fa-search-plus"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of gallery section -->
+
+    <!-- img modal -->
+    <div id="img-modal-box">
+      <div id="img-modal">
+        <button type="button" id="modal-close-btn" class="flex">
+          <i class="fas fa-times"></i>
+        </button>
+        <button type="button" id="prev-btn" class="flex">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button type="button" id="next-btn" class="flex">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <img src="images/gallery-1.jpg" />
+      </div>
+    </div>
+    <!-- end of img modal -->
+
+    <!-- popular places section -->
+    <section id="popular" class="py-4">
+      <div class="title-wrap">
+        <span class="sm-title">EXPAND YOUR COMFORT COLLECTION</span>
+        <h2 class="lg-title">SNEAK PEEK: COMING SOON</h2>
+      </div>
+
+      <div class="popular-row">
+        <div class="popular-item shadow">
+          <img src="images/sweatshirt.png" alt="" />
+          <div>
+            <span>Cozy Hoodies & Sweaters</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">The Ultimate Top Layer</p>
+            <p class="text">
+              Experience fleece comfort from head to <br />
+              toe. Our heavyweight hoodies and <br />
+              crewnecks offer prmium warmth and a <br />
+              relaxed fit, perferct for completing your <br />
+              lounge look.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/Tshirt.png" alt="" />
+          <div>
+            <span>Essential Tees & Tanks</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Foundational Comfort</p>
+            <p class="text">
+              Soft, breathable cotton essentials <br />
+              designed for layering or solo wear. <br />
+              The perfect foundation piece for every <br />
+              casual outfit, offering durability and a <br />
+              smooth feel.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/jacket.png" alt="" />
+          <div>
+            <span>LightWeight Jackets</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Layer Up Effortlessly</p>
+            <p class="text">
+              Ideal for transitional weather or a cool evening.These stylish,
+              water-resistant <br />
+              layers provide protection without the <br />
+              bulk. Perfect for active days or running errands.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/baseball hat.png" alt="" />
+          <div>
+            <span>Apparel Accessories</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">The Finishing Touch</p>
+            <p class="text">
+              Complete your Sila look! Shop our <br />
+              collection of beanies, caps, and socks <br />
+              designed to match our color palettes<br />
+              and enhance the comfort of your everyday wear.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/seasonal shorts.png" alt="" />
+          <div>
+            <span>Seasonal Shorts & Skirts</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Warm Weather Comfort.</p>
+            <p class="text">
+              Our new line of drawstring sweat shorts <br />
+              and lightweight casual skirts offers the <br />
+              same legendary comfort as our joggers, perfect for beating the
+              heat.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/shoe 5.jpg" alt="" />
+          <div>
+            <span>Streetwear Footwear</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Ultimate Comfort Meets Modern Style</p>
+            <p class="text">
+              These lightweight knit sneakers feature a breathable, sock-like
+              fit and a highly cushioned, sculpted sole. The perfect <br />
+              blend of athletic function and <br />
+              contemporary street fashion.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/brogue.png" alt="" />
+          <div>
+            <span>Classic Brogues & Loafers</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Elevate Your Look</p>
+            <p class="text">
+              Beyond the casual, discover our curated selection of classic
+              brogues and refined loafers. Crafted with premium leather <br />
+              and timeless design, perfect for business casual or special
+              occasions.
+            </p>
+          </div>
+        </div>
+
+        <div class="popular-item shadow">
+          <img src="images/jersey1.png" alt="" />
+          <div>
+            <span>Performance & Fan Jerseys</span>
+            <ul class="rating flex">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star-half-alt"></i></li>
+              <li>&nbsp;400 reviews</li>
+            </ul>
+            <p class="text">Game-Ready Comfort</p>
+            <p class="text">
+              Explore our collection of performance <br />
+              jerseys featuring lightweight, moisture <br />wicking fabric.
+              Perfect for sports, workouts, or showing team spirit with
+              unbeatable ventilation and fit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of popular places section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+      <div class="container footer-row">
+        <div class="footer-item">
+          <a href="index.html" class="site-brand"
+            ><img class="logo" src="/images/logo/logo.jpg" alt="" />Sila<span>
+              Joggers</span
+            >
+          </a>
+          <p class="text">
+            Contact Address: UDS - Dungu Campus, Sunyani , Kintampo <br />
+            Phone:+233(0)502606228 / +233(0)550510819 <br />
+            Hours:8:00am - 11:00pm, Mon - Sat
+          </p>
+          <h2>Follow us on:</h2>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-snapchat"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h2>About:</h2>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h2>My Account</h2>
+          <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">My Wishlist</a></li>
+            <li><a href="#">Track My Order</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+        <div class="subscribe-form footer-item">
+          <h2>Subscribe for Newsletter!</h2>
+          <form class="flex">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              class="form-control"
+            />
+            <input type="submit" class="btn" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>@ 2025, sila joggers All copyright reserved.</p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script>
+      // image modal
+      const allGalleryItem = document.querySelectorAll(".gallery-item");
+      const imgModalDiv = document.getElementById("img-modal-box");
+      const modalCloseBtn = document.getElementById("modal-close-btn");
+      const nextBtn = document.getElementById("next-btn");
+      const prevBtn = document.getElementById("prev-btn");
+      let imgIndex = 0;
+
+      allGalleryItem.forEach((galleryItem) => {
+        galleryItem.addEventListener("click", () => {
+          imgModalDiv.style.display = "block";
+          let imgSrc = galleryItem.querySelector("img").src;
+          imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+          showImageContent(imgIndex);
+        });
+      });
+
+      // next click
+      nextBtn.addEventListener("click", () => {
+        imgIndex++;
+        if (imgIndex > allGalleryItem.length) {
+          imgIndex = 1;
+        }
+        showImageContent(imgIndex);
+      });
+
+      // previous click
+      prevBtn.addEventListener("click", () => {
+        imgIndex--;
+        if (imgIndex <= 0) {
+          imgIndex = allGalleryItem.length;
+        }
+        showImageContent(imgIndex);
+      });
+
+      function showImageContent(index) {
+        imgModalDiv.querySelector(
+          "#img-modal img"
+        ).src = `images/gallery-${index}.jpg`;
+      }
+
+      modalCloseBtn.addEventListener("click", () => {
+        imgModalDiv.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
